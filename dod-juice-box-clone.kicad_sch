@@ -744,158 +744,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer_Small"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Small"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_Small_0_1"
-				(rectangle
-					(start 0.762 1.8034)
-					(end -0.762 -1.8034)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.9906)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1361,6 +1209,166 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Floodlight_Custom_Symbols:Alpha_RV16AF-41"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VR"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Alpha_RV16AF-41"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Floodlight_Custom_Footprints:Alpha_RV16AF-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-blog.adafruit.com/uploads/2022/01/Taiwan-Alpha-16mm-pots-datasheet.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Control Name" "control_name_here"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Alpha_RV16AF-41_0_1"
+				(rectangle
+					(start 0.762 1.8034)
+					(end -0.762 -1.8034)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Alpha_RV16AF-41_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.9906)
+					(name "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -3856,79 +3864,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 194.31 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03446ee7-fdfb-4c29-822d-ef23d9bd9546")
-		(property "Reference" "RV2"
-			(at 196.85 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "W100K"
-			(at 196.85 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
-			(at 194.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 194.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4bc6ec24-d2f3-4dc8-a534-2bcda7273ab5")
-		)
-		(pin "1"
-			(uuid "a976fb97-bf79-43de-beea-35f334f7eee4")
-		)
-		(pin "2"
-			(uuid "fdd8ab06-20ef-4aac-9de5-1ea76953cf00")
-		)
-		(instances
-			(project "dod-juice-box-clone"
-				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
-					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 247.65 33.02 0)
 		(unit 1)
@@ -3992,78 +3927,6 @@
 			(project "dod-juice-box-clone"
 				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 276.86 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0859670d-602c-46ee-83c3-29a9fbee2491")
-		(property "Reference" "RV3"
-			(at 274.32 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "W100K"
-			(at 274.32 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
-			(at 276.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 276.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7bc11e10-3db4-47b8-ab97-413985292ee6")
-		)
-		(pin "1"
-			(uuid "41d56212-3fed-4f95-9408-d4e111fd4ebf")
-		)
-		(pin "2"
-			(uuid "d1b610d0-db1b-4abd-91d8-6238a2b64317")
-		)
-		(instances
-			(project "dod-juice-box-clone"
-				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
-					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -5143,6 +5006,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Floodlight_Custom_Symbols:Alpha_RV16AF-41")
+		(at 276.86 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2944f6e5-b7a6-434c-b859-9bb968f1c616")
+		(property "Reference" "VR3"
+			(at 274.32 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "W100K"
+			(at 274.32 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Floodlight_Custom_Footprints:Alpha_RV16AF-41"
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-blog.adafruit.com/uploads/2022/01/Taiwan-Alpha-16mm-pots-datasheet.pdf"
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control Name" "TANG/HIGH"
+			(at 274.32 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "37af0b73-222e-42a9-8760-da5fa496c834")
+		)
+		(pin "3"
+			(uuid "30045e46-f7a9-48cf-9d31-2fc44c889428")
+		)
+		(pin "2"
+			(uuid "2533176f-0067-4c27-8722-d3ec995b838b")
+		)
+		(instances
+			(project "dod-juice-box-clone"
+				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
+					(reference "VR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 106.68 111.76 0)
 		(unit 1)
@@ -5231,6 +5176,88 @@
 			(project "dod-juice-box-clone"
 				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Floodlight_Custom_Symbols:Alpha_RV16AF-41")
+		(at 297.18 100.33 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31071421-dccd-4fc2-9f4d-9b60ef4b63de")
+		(property "Reference" "VR4"
+			(at 294.64 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "W100K"
+			(at 294.64 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Floodlight_Custom_Footprints:Alpha_RV16AF-41"
+			(at 297.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-blog.adafruit.com/uploads/2022/01/Taiwan-Alpha-16mm-pots-datasheet.pdf"
+			(at 297.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 297.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control Name" "JUICE/LEVEL"
+			(at 294.64 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "41db9c93-a585-4145-b537-64cc6432a3c1")
+		)
+		(pin "3"
+			(uuid "9ed57c04-690f-4589-a36f-051806b8fbb3")
+		)
+		(pin "2"
+			(uuid "6c629bb2-cf21-4732-bae1-2dd17674261f")
+		)
+		(instances
+			(project "dod-juice-box-clone"
+				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
+					(reference "VR4")
 					(unit 1)
 				)
 			)
@@ -7685,79 +7712,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 297.18 100.33 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cb69668-b999-4977-9c47-0c6d82c1b8de")
-		(property "Reference" "RV4"
-			(at 294.64 101.6001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "W100K"
-			(at 294.64 99.0601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
-			(at 297.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 297.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 297.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f79f73c1-c6b6-4e66-a323-f6a5439479e6")
-		)
-		(pin "1"
-			(uuid "4ad97fee-45e8-4f25-965d-6abf095d96fa")
-		)
-		(pin "2"
-			(uuid "78751136-92a6-41ee-9a49-9262b9988db3")
-		)
-		(instances
-			(project "dod-juice-box-clone"
-				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
-					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 214.63 33.02 0)
 		(unit 1)
@@ -7895,33 +7849,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 115.57 41.91 90)
+		(lib_id "Floodlight_Custom_Symbols:Alpha_RV16AF-41")
+		(at 194.31 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a28f3b45-e91e-4525-9da1-411917a288ac")
-		(property "Reference" "RV1"
-			(at 115.57 44.45 90)
+		(uuid "a15aab91-5c87-42a2-b599-f219d5bafeb1")
+		(property "Reference" "VR2"
+			(at 196.85 69.8501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "W100K"
-			(at 115.57 46.99 90)
+			(at 196.85 67.3101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
-			(at 115.57 41.91 0)
+		(property "Footprint" "Floodlight_Custom_Footprints:Alpha_RV16AF-41"
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,8 +7885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 115.57 41.91 0)
+		(property "Datasheet" "https://cdn-blog.adafruit.com/uploads/2022/01/Taiwan-Alpha-16mm-pots-datasheet.pdf"
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +7895,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 115.57 41.91 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,19 +7903,28 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "91d3e52d-624e-4d65-b56b-9b8e1be0750a")
+		(property "Control Name" "PULP/LOW"
+			(at 196.85 64.7701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(pin "1"
-			(uuid "2d89097d-c03c-4d19-b481-a7b5224fc610")
+			(uuid "8e2a0952-1f66-4c3d-97cf-180c07cfdcf6")
+		)
+		(pin "3"
+			(uuid "78271e18-60cf-40fe-a642-1ed209224c9f")
 		)
 		(pin "2"
-			(uuid "80719f6c-a595-406a-a528-bb0efc21ef7a")
+			(uuid "2b826ec9-5d65-4f18-9cab-b03e84301264")
 		)
 		(instances
 			(project "dod-juice-box-clone"
 				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
-					(reference "RV1")
+					(reference "VR2")
 					(unit 1)
 				)
 			)
@@ -9116,6 +9081,85 @@
 			(project "dod-juice-box-clone"
 				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Floodlight_Custom_Symbols:Alpha_RV16AF-41")
+		(at 115.57 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d526aad6-cfa5-4167-ac99-a615d03bc929")
+		(property "Reference" "VR1"
+			(at 115.57 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W100K"
+			(at 115.57 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Floodlight_Custom_Footprints:Alpha_RV16AF-41"
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-blog.adafruit.com/uploads/2022/01/Taiwan-Alpha-16mm-pots-datasheet.pdf"
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control Name" "SWEET/GAIN"
+			(at 115.57 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11057644-48dd-4eda-a24e-3342eac95007")
+		)
+		(pin "3"
+			(uuid "2e63a9ba-7881-4f64-9383-beb0cac81c9f")
+		)
+		(pin "2"
+			(uuid "25c6fb47-1bd1-4617-9edc-7e0ade91eba7")
+		)
+		(instances
+			(project ""
+				(path "/6d24f686-72e1-4da1-b46c-239469d06a24"
+					(reference "VR1")
 					(unit 1)
 				)
 			)
